@@ -1,0 +1,8 @@
+此文件夹中为主程序调用计算的子程序；
+%% 目前可供选择的冷却介质有空气（Air）、乙二醇水溶液（Ethylent_Gycol）、水（Water）
+其中Property开头的为热物性拟合函数，当选用不同冷却介质时，将主程序及子程序
+rad_ihd_tube_ehd;
+rad_s_tube;
+rad_s_volume;
+rad_s_volume_solve;
+中的查物性函数进行替换即可。
